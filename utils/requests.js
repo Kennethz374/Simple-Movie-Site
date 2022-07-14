@@ -13,12 +13,12 @@ export default {
 		title: "Action",
 		url: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
 	},
-	fetchAction: {
-		title: "Romance",
+	fetchComedy: {
+		title: "Comedy",
 		url: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
 	},
-	fetchAction: {
-		title: "Action",
+	fetchHorror: {
+		title: "Horror",
 		url: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
 	},
 };
