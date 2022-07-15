@@ -7,18 +7,10 @@ export default {
 	},
 	fetchTopRated: {
 		title: "Top-Rated",
-		url: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
+		url: `/movie/top_rated?api_key=${API_KEY}&language=en-US`,
 	},
-	fetchAction: {
+	fetchActionMovies: {
 		title: "Action",
-		url: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
-	},
-	fetchComedy: {
-		title: "Comedy",
-		url: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
-	},
-	fetchHorror: {
-		title: "Horror",
-		url: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
+		url: `/discover/movie?api_key=${API_KEY}&with_genres=28`,
 	},
 };
